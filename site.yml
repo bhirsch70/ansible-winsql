@@ -1,0 +1,6 @@
+---
+- name: Install Microsoft SQL Express 2014
+  hosts: all
+
+  roles:
+    - ionut-maxim.win_sqlexpress2014
